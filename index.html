@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DilKhush Salon</title>
+    <link rel="shortcut icon" href="images/chetan2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body id="home">
+    <nav>
+        <a href="#home" class="logo">
+            <img style="width: 50px;" src="services-png/haircut-styles.png" alt="">
+            DilKhush Salon
+        </a>
+         
+        <div class="nav-menu" id="navMenu">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#team">Team</a></li>
+            </ul>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div> 
+        <div class="hamburger" onclick="toggleMenu()">
+            <svg viewBox="0 0 24 24" width="30" height="30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>
+                Transform Your <span class="highlight-dark">Look</span><br>
+                with Our <span class="highlight-purple">Expert</span><br>
+                <span class="highlight-yellow">Haircuts</span>
+            </h1>
+            <p>You will leave looking sharp, relaxed and ready to take on the world, with that swagger in your stride.</p>
+            
+            <a href="form.html" class="btn-book">
+                Book Appointment
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+
+        <div class="hero-visuals">
+            <svg class="svg-bg" viewBox="0 0 500 500" preserveAspectRatio="none">
+                <path d="M 150 50 Q 300 10 400 150" stroke="#EAEBF0" stroke-width="3" fill="none" stroke-linecap="round"/>
+            </svg>
+
+            <div class="bg-scissor scissor-1">
+                <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                    <line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+            </div>
+            <div class="bg-scissor scissor-2">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                    <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                    <line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+            </div>
+            <div class="bg-scissor scissor-3">
+                <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+            </div>
+
+            <div class="barber-img">
+                <img src="images/chetan.png" alt="chetan">
+            </div>
+
+            <div class="floating-badge">
+                <div class="badge-icon">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="6" cy="6" r="3"></circle> <circle cx="6" cy="18" r="3"></circle>
+                        <line x1="20" y1="4" x2="8.12" y2="15.88"></line> <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                        <line x1="8.12" y1="8.12" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+                <div class="badge-text">
+                    <span class="title">5+ Years</span>
+                    <span class="stars">Master Experience</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="about">
+        <section class="services-section" style="margin-bottom: 60px;">
+            <h2>About my Story</h2>
+        </section>
+
+        <section class="about-section" style="margin-top: 5px;">
+            <div class="about-img-col">
+                <div class="about-bg-box"></div>
+                <div class="about-img-wrapper">
+                    <img src="https://www.shutterstock.com/image-photo/hairdressing-tools-gold-on-gray-600nw-2210730917.jpg" alt="Salon Barber" class="main-barber-img">
+                    <div class="opening-hours-overlay">
+                        <h3>Opening Hours</h3>
+                        <ul class="hours-list">
+                            <li>
+                                <span class="day">MONDAY-FRIDAY</span>
+                                <span class="time">08:00 AM - 10:00 PM</span>
+                            </li>
+                            <li>
+                                <span class="day">SATURDAY</span>
+                                <span class="time">08:00 AM - 10:00 PM</span>
+                            </li>
+                            <li>
+                                <span class="day">SUNDAY</span>
+                                <span class="time">08:00 AM - 10:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-content-col">
+                <h2 class="about-title">Your Trusted Hair & Beauty Salon</h2>
+                <p class="about-desc">We are a professional hair & beauty salon dedicated to providing top-notch services tailored to your unique style. Our team of experienced stylists is passionate about helping you look and feel your best in a welcoming and hygienic environment.</p>
+
+                <div class="about-features">
+                    <div class="feat-box">
+                        <img src="services-png/haiir-cut-styling.png" alt="Hair Cutting">
+                        <div class="feat-text">
+                            <h4>Hair Cutting</h4>
+                            <p>Quis autem vel sumu reres ender quiea</p>
+                        </div>
+                    </div>
+                    <div class="feat-box">
+                        <img src="services-png/hair-styling.png" alt="Modern Equipment">
+                        <div class="feat-text">
+                            <h4>Modern Equipment</h4>
+                            <p>Quis autem vel sumu reres ender quiea</p>
+                        </div>
+                    </div>
+                    <div class="feat-box">
+                        <img src="services-png/hair-spa.png" alt="Hygienic Environment">
+                        <div class="feat-text">
+                            <h4>Hygienic Environment</h4>
+                            <p>Quis autem vel sumu reres ender quiea</p>
+                        </div>
+                    </div>
+                    <div class="feat-box">
+                        <img src="services-png/massage.png" alt="Customer Satisfaction">
+                        <div class="feat-text">
+                            <h4>Customer Satsaction</h4>
+                            <p>Quis autem vel sumu reres ender quiea</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <span class="number">300+</span>
+                        <span class="label">Modern Haircuts</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">200+</span>
+                        <span class="label">Expert Stylists</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">10+</span>
+                        <span class="label">Branches</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="testimonial-banner-section" style="padding-top: 50px;">
+        <div class="testimonial-content">
+            <div class="testimonial-bg-icon">
+                <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+            </div>
+            
+            <div class="quote-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/></svg>
+            </div>
+
+            <h2 class="testimonial-title">We're Best Barbers<br>& Hair Cutting<br>Salon</h2>
+            
+            <div class="testimonial-stars">★★★★★</div>
+
+            <p class="testimonial-desc">"I've been going to Chetan's Salon for months, and they never disappoint. The attention to detail, the relaxing atmosphere, and the expert styling make it the absolute best barbershop in town. Highly recommended for anyone looking for a premium grooming experience!"</p>
+            
+            <div class="testimonial-author">
+                <div class="author-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80" alt="Customer" class="author-photo">
+                </div>
+                <div class="author-details">
+                    <h4>Rahul Patel</h4>
+                    <span>Happy Customer</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cta-banner-bar">
+            <div class="cta-bg-left">
+                <svg viewBox="0 0 64 64"><path d="M10 10 h15 v40 h-15 z M35 15 l20 20 m-20 0 l20 -20"/><circle cx="20" cy="50" r="4"/><circle cx="50" cy="50" r="4"/></svg>
+            </div>
+            
+            <h3 class="cta-text">READY TO GET OUR SERVICE ?</h3>
+            
+            <a href="#contact" class="cta-btn-outline" style="text-decoration: none;">
+                Contact Us 
+                <span>»</span>
+            </a>
+            
+            <div class="cta-bg-right">
+                <svg viewBox="0 0 64 64"><path d="M35 15 l20 20 m-20 0 l20 -20"/><circle cx="20" cy="50" r="4"/><circle cx="50" cy="50" r="4"/></svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <h2>Service We Provide</h2>
+        <p class="services-desc">Experience premium grooming with our top-tier services. From classic cuts to advanced hair treatments, we ensure you always look and feel your absolute best.</p>
+        
+        <div class="slider-wrapper">
+            <button class="slider-arrow left" onclick="scrollGrid('services-grid', -1)">❮</button>
+            
+            <div class="services-grid" id="services-grid" onscroll="updateDots('services-grid', 'services-dots')">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="services-png/haiir-cut-styling.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Cutting Style</h3>
+                        <p>Get a sharp, personalized haircut tailored to your face shape and lifestyle. Our expert barbers ensure you walk out looking stylish and confident every single time.</p>
+                    </div>
+                    <a href="form.html" class="book-now-btn">Book Now →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="services-png/hair-styling.png" alt="Hair Styling">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Styling</h3>
+                        <p>Whether it's a casual everyday look or a special occasion, our premium styling services add the perfect volume, texture, and finish to your hair.</p>
+                    </div>
+                    <a href="form.html" class="book-now-btn">Book Now →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="services-png/hair-coloring.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Coloring</h3>
+                        <p>From subtle highlights to bold transformations, we use high-quality, ammonia-free products to give your hair a vibrant, rich, and long-lasting color.</p>
+                    </div>
+                    <a href="form.html" class="book-now-btn">Book Now →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="services-png/beard-trim.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h3>Beard Trim</h3>
+                        <p>Keep your facial hair sharp and symmetrical. We provide precision trimming, shaping, and classic hot towel treatments for a flawless, clean-cut beard.</p>
+                    </div>
+                    <a href="form.html" class="book-now-btn">Book Now →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="services-png/hair-spa.png" alt="Hair Spa">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Spa</h3>
+                        <p>Rejuvenate your scalp and hair with our deep-conditioning spa treatments. Perfect for reducing stress, repairing damage, and preventing hair fall.</p>
+                    </div>
+                    <a href="form.html" class="book-now-btn">Book Now →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="services-png/massage.png" alt="Indian Champi">
+                    </div>
+                    <div class="service-content">
+                        <h3>Head Massage</h3>
+                        <p>A traditional, deeply relaxing head massage using warm herbal oils to relieve stress, tension, and promote healthy hair.</p>
+                    </div>
+                    <a href="form.html" class="book-now-btn">Book Now →</a>
+                </div>
+            </div>
+
+            <button class="slider-arrow right" onclick="scrollGrid('services-grid', 1)">❯</button>
+
+            <div class="slider-dots" id="services-dots">
+                <span class="dot active" onclick="goToSlide('services-grid', 0)"></span>
+                <span class="dot" onclick="goToSlide('services-grid', 1)"></span>
+                <span class="dot" onclick="goToSlide('services-grid', 2)"></span>
+                <span class="dot" onclick="goToSlide('services-grid', 3)"></span>
+                <span class="dot" onclick="goToSlide('services-grid', 4)"></span>
+                <span class="dot" onclick="goToSlide('services-grid', 5)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <div class="gallery-header">
+            <div class="gallery-title-area">
+                <h2>Latest Portfolio<br>Gallery</h2>
+                <p>Browse through our collection of recent haircuts, beard trims, and styling sessions. Every look is crafted with precision and tailored to suit each client's unique personality and lifestyle.</p>
+            </div>
+            <a href="gallery.html" class="gallery-btn" style="background-color: transparent; color: black; border: 2px solid black;">Gallery »</a>
+        </div>
+        
+        <div class="gallery-grid">
+            <div class="gallery-card"><img src="" class="gal-bg" id="gal-img-1" alt="Gallery Image"></div>
+            <div class="gallery-card"><img src="" class="gal-bg" id="gal-img-2" alt="Gallery Image"></div>
+            <div class="gallery-card"><img src="" class="gal-bg" id="gal-img-3" alt="Gallery Image"></div>
+            <div class="gallery-card"><img src="" class="gal-bg" id="gal-img-4" alt="Gallery Image"></div>
+        </div>
+    </section>
+
+    <section class="specialist-section" id="team">
+        <h2>Meet Our Specialist</h2>
+        <p class="specialist-desc">Our master barbers are passionate about the art of men's grooming. With years of experience and an eye for sharp details, we guarantee a style that perfectly suits your personality.</p>
+        
+        <div class="slider-wrapper">
+            <button class="slider-arrow left" onclick="scrollGrid('specialist-grid', -1)">❮</button>
+            
+            <div class="specialist-grid" id="specialist-grid" onscroll="updateDots('specialist-grid', 'specialist-dots')">
+                
+                <div class="specialist-card">
+                    <div class="spec-img">
+                        <img src="images/chetan2.png" alt="Chetan Bhati">
+                    </div>
+                    <div class="spec-info">
+                        <h3>Chetan Bhati</h3>
+                        <p class="spec-role">Master Barber</p>
+                        <p class="spec-desc">Expert in classic cuts, modern fading, and precision styling for a sharp look.</p>
+                    </div>
+                    <div class="spec-contact-links">
+                        <a href="#" class="fb" target="_blank" title="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/chetan__nayi_/" class="insta" target="_blank" title="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.735-6.98 6.095-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.2 4.358 2.618 5.895 6.98 6.095 1.28.058 1.689.072 4.947.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.735 6.979-6.095.059-1.28.073-1.687.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-5.895-6.979-6.095-1.28-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=918401495597" class="wa" target="_blank" title="WhatsApp">
+                            <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="specialist-card">
+                    <div class="spec-img">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.nXXxVjtX-w9hCuWnSgzh7AHaHa?w=980&h=982&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Jigar Bhati">
+                    </div>
+                    <div class="spec-info">
+                        <h3>Jigar Bhati</h3>
+                        <p class="spec-role">Shop Owner</p>
+                        <p class="spec-desc">Passionate about texturing and adding the perfect volume to everyday styles.</p>
+                    </div>
+                    <div class="spec-contact-links">
+                        <a href="#" class="fb" target="_blank" title="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                        <a href="#" class="insta" target="_blank" title="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.735-6.98 6.095-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.2 4.358 2.618 5.895 6.98 6.095 1.28.058 1.689.072 4.947.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.735 6.979-6.095.059-1.28.073-1.687.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-5.895-6.979-6.095-1.28-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" class="wa" target="_blank" title="WhatsApp">
+                            <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="specialist-card">
+                    <div class="spec-img">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.nXXxVjtX-w9hCuWnSgzh7AHaHa?w=980&h=982&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Gopal Bhati">
+                    </div>
+                    <div class="spec-info">
+                        <h3>Gopal Bhati</h3>
+                        <p class="spec-role">Beard Specialist</p>
+                        <p class="spec-desc">Masters the art of precision trimming, hot towel shaves, and symmetrical beard styles.</p>
+                    </div>
+                    <div class="spec-contact-links">
+                        <a href="#" class="fb" target="_blank" title="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                        <a href="#" class="insta" target="_blank" title="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.735-6.98 6.095-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.2 4.358 2.618 5.895 6.98 6.095 1.28.058 1.689.072 4.947.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.735 6.979-6.095.059-1.28.073-1.687.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-5.895-6.979-6.095-1.28-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=918401495597" class="wa" target="_blank" title="WhatsApp">
+                            <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="slider-arrow right" onclick="scrollGrid('specialist-grid', 1)">❯</button>
+
+            <div class="slider-dots" id="specialist-dots">
+                <span class="dot active" onclick="goToSlide('specialist-grid', 0)"></span>
+                <span class="dot" onclick="goToSlide('specialist-grid', 1)"></span>
+                <span class="dot" onclick="goToSlide('specialist-grid', 2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-contact-section" id="contact">
+        <h2 class="contact-main-heading">Contact Us</h2>
+        <p class="contact-subtitle">Step into a world of premium grooming. Give us a call, send an email, or drop by our salon to upgrade your look today!</p>
+        
+        <div class="contact-modern-container">
+            <div class="contact-cards">
+                
+                <div class="contact-card">
+                    <svg viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    <h4>Our Location</h4>
+                    <p>Sargasan<br>Gandhinagar, Gujarat, India</p>
+                </div>
+                
+                <div class="contact-card">
+                    <svg viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+                    <h4>Email Us</h4>
+                    <p>chetanbhati@gmail.com<br>Support: 24/7</p>
+                </div>
+                
+                <div class="contact-card">
+                    <svg viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.792c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.082-1.026-3.492-6.82-2.116 1.042c-2.269 1.103-1.942 5.094 1.554 11.536 3.456 6.376 7.301 7.822 9.581 6.697l2.585-1.254zm-2.029-4.887l.79.431-1.077.525c-.955.467-3.665-.333-6.195-4.996-2.502-4.577-2.613-7.534-1.644-8.016l1.055-.52.83.454c.774.425.86.685.163 1.378-1.503 1.498 1.468 7.397 2.973 5.864.719-.728.986-.628 1.411.168l1.694.712z"/></svg>
+                    <h4>Call Us</h4>
+                    <p>+91 84014 95597<br>Mon-Sun, 8am-10pm</p>
+                </div>
+
+            </div>
+
+            <div class="contact-map-wide">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.581561665096!2d72.62060527586526!3d23.182104910196853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b009525257d%3A0xc643949f2420e521!2sDil%20Khush%20Salon!5e0!3m2!1sen!2sin!4v1712100000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <a href="form.html" class="btn-book" style="margin-top: 20px;">
+                Book Appointment
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer-simple">
+        <div class="footer-simple-content">
+            <a href="#home" class="footer-logo-simple">
+                <img src="services-png/haircut-styles.png" alt="Logo">
+                DilKhush Salon
+            </a>
+            
+            <p style="color: #aaa; max-width: 450px; font-size: 14px; line-height: 1.6;">
+                Experience premium grooming with our top-tier services. We ensure you always look and feel your absolute best.
+            </p>
+            
+            <div class="footer-socials-simple">
+                <a href="#" target="_blank" title="Facebook">
+                    <svg viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/chetan_makeover_/" class="insta" target="_blank" title="Instagram">
+                    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 1.735-6.98 6.095-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.2 4.358 2.618 5.895 6.98 6.095 1.28.058 1.689.072 4.947.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-1.735 6.979-6.095.059-1.28.073-1.687.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-5.895-6.979-6.095-1.28-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=918401495597" class="wa" target="_blank" title="WhatsApp">
+                    <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom-simple">
+            <p>© 2026 DilKhush Salon. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
