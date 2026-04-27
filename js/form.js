@@ -176,7 +176,7 @@
             submitBtn.style.opacity = "0.7";
             msgBox.innerHTML = "";
 
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzEihzmYZOaXJyHnY1XbEBZ75yRVBoyxKIM2J2W6IQrm4QMqAxakEcCVAXck4QoIdX1fg/exec';
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw3djNMNAt1gatQy91MzKQqtYBR14jkSPLrExVfSnCPP7tcibw50vwOPv-ALWVtOfxWbg/exec';
 
             fetch(scriptURL, {
                 method: 'POST',
