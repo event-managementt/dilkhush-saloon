@@ -31,6 +31,11 @@
             color: var(--text-dark);
             padding: 0 5% 0; 
             overflow-x: hidden;
+            user-select: none;
+        }
+        img {
+            -webkit-user-drag: none;
+            user-select: none;
         }
 
         /* --- Navbar --- */
